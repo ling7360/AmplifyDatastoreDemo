@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "thedashboard",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "S3DeploymentBucket": "amplify-thedashboard-staging-12840-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/73781d20394aac9b5cf85a07dcf11084e6fb27ee"
+}
